@@ -2,23 +2,17 @@
  
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body {
   height: 100%;
 }
 
 body {
   font-family: "Roboto", sans-serif;  
-  background-color: #1a1a1a;;
-}
-
-a {
-  outline: none;
-  color: #e4e4e4;
-  text-decoration: none !important;
-}
-
-a:hover {
-  color: #f55f31;
+  background-color: #1a1a1a;
 }
 
 p {
@@ -61,7 +55,7 @@ nav-container {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .navbar .navbar-toggler {
@@ -70,7 +64,7 @@ nav-container {
 
 .navbar > a {
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
+    font-family: "Patrick Hand", cursive;
     font-weight: 400;
     font-size: 30px;    
     margin-top: 5px;
