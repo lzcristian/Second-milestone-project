@@ -1,6 +1,13 @@
-/*    GENERAL CSS     */
- 
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto&display=swap');
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 
 html {
   scroll-behavior: smooth;
@@ -10,24 +17,11 @@ html, body {
   height: 100%;
 }
 
+
 body {
   font-family: "Roboto", sans-serif;  
   background-color: #1a1a1a;
-}
-
-p {
-  line-height: 1.9;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Patrick Hand", cursive;
-}
-
-
-.jumbotron-header {
-    color: #fff;
-    font-family: "Patrick Hand", cursive;
-    font-size: 80px;          
+  margin: 0;
 }
 
 .viewport-header {
@@ -39,6 +33,27 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;  
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Patrick Hand", cursive;
+}
+
+p {
+  line-height: 1.9;
+}
+
+
+.jumbotron-header {
+    color: #fff;
+    font-family: "Patrick Hand", cursive;
+    font-size: 80px;          
+}
+
+main {
+    background: rgba(black, 0.65);
+    color: white;
+    position: relative;
+    padding: 1rem;   
+}
 
 /*    Navbar     */
 
@@ -78,16 +93,6 @@ nav-container {
     text-decoration: none;
 }
 
-
-/*   Background video  */
-
-video {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-
+.packs {
+    display: inline-block;
+}    

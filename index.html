@@ -63,12 +63,6 @@
 <main>
 
     <!-- Packages -->
-    <section class="section">
-        
-    </section>
-
-
-    <!-- Destinations -->
     <section class="section" id="packages">
         <div class="row">
             <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
@@ -76,8 +70,46 @@
                     <div class="p-4 text-center">
                         <h5 class="text-dark font-weight-bold">SPAIN</h5>
                         <p class="small text-muted mb-0">Choose between Mallorca, Valencia, Barcelona, Tenerife and others.</p>
+                        
                         <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
-                            <p class="small mb-0 font-weight-bold"><a href="#">Prices from £000.00</a></p>                        
+                            <p class="small mb-0">
+                                <button type="button" class="btn btn-link btn-sm font-weight-bold" data-toggle="modal" data-target="#exampleModalLong">
+                                   Prices from £000.00
+                                </button>
+                            </p>
+                            <div class="bs-example">
+                                <div id="exampleModalLong" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title font-weight-bold text-dark" id="exampleModalLongTitle">Spain packages</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-dark">7 days trip to Valencia and Barcelona for only <b>£000.00</b> &nbsp;&nbsp;                                                          
+                                                    <span>
+                                                        <button type="button" class="btn btn-warning btn-sm font-weight-bold" data-toggle="modal">Click to book it!</button>                                                   
+                                                    </span>
+                                                </p>
+                                                <p class="text-dark">3 days trip to Mallorca for only <b>£000.00</b> &nbsp;&nbsp;                                                          
+                                                    <span>
+                                                        <button type="button" class="btn btn-warning btn-sm font-weight-bold" data-toggle="modal">Click to book it!</button>                                                   
+                                                    </span>
+                                                </p>
+                                                <p class="text-dark">4 days trip to Tenerife for only <b>£000.00</b> &nbsp;&nbsp;                                                          
+                                                    <span>
+                                                        <button type="button" class="btn btn-warning btn-sm font-weight-bold" data-toggle="modal">Click to book it!</button>                                                   
+                                                    </span>
+                                                </p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+
                         </div>
                     </div>
                 </div>
@@ -88,11 +120,17 @@
                         <h5 class="text-dark font-weight-bold">ITALY</h5>
                         <p class="small text-muted mb-0">Choose between Milan, Rome, Venice, Torino and others.</p>
                         <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
-                            <p class="small mb-0 font-weight-bold"><a href="#">Prices from £000.00</a></p>                        
-                        </div>
+                            <p class="small mb-0">
+                                <button type="button" class="btn btn-link btn-sm font-weight-bold" data-toggle="modal" data-target="#myModal_1">
+                                   Prices from £000.00
+                                </button>
+                            </p> 
+                            
+                        </div>                
                     </div>
                 </div>
-            </div> 
+            </div>
+        
             <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
                 <div class="bg-white rounded shadow-sm"><img src="images/travel-aegean.jpg" alt="" class="img-fluid card-img-top">
                     <div class="p-4 text-center">
@@ -138,7 +176,7 @@
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-                <div class="bg-white rounded shadow-sm"><img src="#" alt="" class="img-fluid card-img-top">
+                <div class="bg-white rounded shadow-sm"><img src="images/building-columns.jpg" alt="" class="img-fluid card-img-top">
                     <div class="p-4 text-center">
                         <h5 class="text-dark font-weight-bold">GERMANY</h5>
                         <p class="small text-muted mb-0">Choose between Munich, Berlin, Frankfurt, Hamburg and others.</p>
@@ -149,7 +187,7 @@
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-                <div class="bg-white rounded shadow-sm"><img src="#" alt="" class="img-fluid card-img-top">
+                <div class="bg-white rounded shadow-sm"><img src="images/rock-cyprus.jpg" alt="" class="img-fluid card-img-top">
                     <div class="p-4 text-center">
                         <h5 class="text-dark font-weight-bold">CYPRUS</h5>
                         <p class="small text-muted mb-0">Choose between Larnaca, Nicosia, Limassol, Paphos and others.</p>
@@ -159,7 +197,12 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>     
+    </section>
+
+
+    <!-- Destinations -->
+    <section class="section">
 
     </section>
 
