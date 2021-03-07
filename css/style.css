@@ -18,7 +18,6 @@ html, body {
 }
 
 main {
-    background-color: rgba(black, 0.65);
     color: white;
     position: relative;
     padding: 1rem;   
@@ -122,15 +121,23 @@ button[type="submit"] {
 }
 
 #packages {
+    padding-top: 100px;
     margin-bottom: 150px;
 }
 
 #destinations {
+    padding-top: 100px;
     margin-bottom: 200px;
 }
 
 #about {
+    padding-top: 100px;    
     margin-bottom: 200px;
+}
+
+#contact {
+    padding-top: 100px;
+    margin-bottom: 300px;
 }
 
 
