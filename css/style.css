@@ -17,12 +17,13 @@ html, body {
   height: 100%;
 }
 
-
-body {
-  font-family: "Roboto", sans-serif;  
-  background-color: #1a1a1a;
-  margin: 0;
+main {
+    background-color: rgba(black, 0.65);
+    color: white;
+    position: relative;
+    padding: 1rem;   
 }
+
 
 .viewport-header {
   position: relative;
@@ -48,12 +49,6 @@ p {
     font-size: 80px;          
 }
 
-main {
-    background: rgba(black, 0.65);
-    color: white;
-    position: relative;
-    padding: 1rem;   
-}
 
 /*    Navbar     */
 
@@ -93,6 +88,54 @@ nav-container {
     text-decoration: none;
 }
 
-.packs {
-    display: inline-block;
-}    
+
+
+/*  Contact  */
+
+.contact-heading {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;    
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #eb8d13;
+    color: #fafafa;
+    border-color: transparent;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+#packages {
+    margin-bottom: 150px;
+}
+
+#destinations {
+    margin-bottom: 200px;
+}
+
+#about {
+    margin-bottom: 200px;
+}
+
+
+#map {     
+    height: 600px;  
+    width: 100%;
+}
+
