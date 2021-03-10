@@ -140,9 +140,11 @@ button[type="submit"] {
     margin-bottom: 300px;
 }
 
-
-#map {     
-    height: 600px;  
+#clMap {
     width: 100%;
+    height: 600px;
+    font-family: "Patrick Hand", cursive;
+    color: black;
 }
+
 
