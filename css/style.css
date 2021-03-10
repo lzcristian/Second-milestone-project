@@ -20,7 +20,7 @@ html, body {
 main {
     color: white;
     position: relative;
-    padding: 1rem;   
+    padding: 1rem; 
 }
 
 
@@ -147,4 +147,17 @@ button[type="submit"] {
     color: black;
 }
 
+@media(max-width: 768px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+    }
 
+    .jumbotron-header {
+    color: #fff;
+    font-family: "Patrick Hand", cursive;
+    font-size: 35px;
+    }
+}
