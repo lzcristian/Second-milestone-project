@@ -1,45 +1,88 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Webpage link:
 
-Welcome Cristian ,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Mockup sketch:
+/workspace/Second-milestone-project/mockup.pdf
 
-## Gitpod Reminders
+# Title: Europe travel Agency
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The website represents the online presence of a travel company in UK, which offers a variety of vacation packages around Europe.
 
-`python3 -m http.server`
+ 
+## UX
+ 
+The website is designed as a one page layout, a modern aproach used oftnen nowadays. 
+As you open the website, you'll feel relaxed and welcomed by the background video wich covers the entire page at all time. The inspiration to create a travel website came from the CodeInstitute sugestions and it was a great idea to take on.
+A google map section is available to user to see exactly the destinations offered as a vacation package with small descriptions of each location.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+## Features
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Each section of the page has been designed to be easy to read and navigate.
+A scroll up button is visible in the rigt corner to help users get back to the top easily.
+All the information provided in the packages and destinations sections is to help the user get to a decision and choose which destination they want.
 
-A blue button should appear to click: *Make Public*,
+At the top, the first section is dedicated to welcoming the users and get a feeling of the website.
+A simple welcoming title and a button which sends the user directly to the destinations section.
 
-Another blue button should appear to click: *Open Browser*.
+The Packages section shows the vacation packages that the company has to offer and the price for each individual package. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The About section has a short presentation or the company's profile.
 
-## Updates Since The Instructional Video
+The last section is the "Contact" page, which has the form that any potential client can fill in and submit for any supplementary information. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Technologies Used
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- HTML
+- CSS
+- Javascript 
+- Bootstrap 4 CDN library (https://getbootstrap.com/)
+- Google Fonts (https://fonts.google.com/)
+- [JQuery](https://jquery.com)
+   - The project uses **JQuery** to simplify DOM manipulation.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Testing
 
---------
+I have tested each section to see if it loads correctly all the elements and if it looks good on all devices. 
 
-Happy coding!
+All the links provided are ok and send the user to the specific destination.
+
+The navigation menu has no problems and on smaller screens it transform in a 3-bar icon with a drop menu.  
+
+The types of text used across the website are clear and readable on all types of screens (small or large). 
+
+I have used the Markup Validation Service (https://validator.w3.org/) and the CSS Validation Service (https://jigsaw.w3.org/css-validator/) and both return no errors on the written code.
+
+## Bugs
+
+I noticed that the Google map doesn't load correctly. This may be because I have used the API key provided in the course. I have tried to create my own API key, followed all the steps but in the end I gave up because Google kept saying it cannot retrieve the client ID.
+
+
+## Deployment
+
+This project has been created using Gitpod and stored Github pages and deployed by creating a unique link in Github, following the instructions provided. 
+
+
+## Credits
+
+- Code Institute (https://codeinstitute.net/)
+- w3schools (https://www.w3schools.com/)
+- Codepen (https://codepen.io/)
+- CSS-Tricks (https://css-tricks.com/)
+- Bootstrap (https://getbootstrap.com/)
+- Google Fonts (https://fonts.google.com/) 
+
+
+
+### Media
+- www.freepik.com was used for all the images on the page
+- www.videvo.net/ was used for the background video
+
+### Acknowledgements
+
+- I received inspiration for this project from the project done during the CodeInstitute learning modules, tutorials and lessons from w3schools.com, codepen.io and css-tricks.com.
