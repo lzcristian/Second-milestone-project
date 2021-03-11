@@ -1,8 +1,7 @@
-Webpage link:
+Webpage link: https://lzcristian.github.io/Second-milestone-project/
 
 
-Mockup sketch:
-/workspace/Second-milestone-project/mockup.pdf
+[Wireframe sketch](/workspace/Second-milestone-project/mockup.pdf)
 
 # Title: Europe travel Agency
 
